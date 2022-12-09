@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 50%;
+
+}
+
+nav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left:30px ;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: rgb(59, 27, 174);
+
+
+}
+
+.parent {
+  display: block;
+  
+  padding-left: 25%;
+
+}
+
+.body h3 {
+  font-size: 29px;
+}
+
+.body h4 {
+  font-size: 20px;
+  color: red;
+  
+}
+
+span {
+  color: blue;
+}
+
+.about {
+  background-color: red;
+
+
+  margin-left: 12%;
+  
+ 
+  text-align: center;
+  font-size: 25px;
+
+  
+  margin-bottom: 15px;
+  border-radius: 4px;
+
+
+} 
+
+.parent ul
+{
+  align-items: center;
+  display: flex;
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+.parent ul li
+{
+  list-style: none;
+  padding-left: 50px;
+}
+.parent ul
+{
+
+  background-color: red;
+}
